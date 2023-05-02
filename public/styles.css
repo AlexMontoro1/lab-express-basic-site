@@ -1,0 +1,59 @@
+*{
+    background-color:#FFF56E;
+    text-align: center;
+    
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+font-size: 400%;
+margin-top: 150px;
+color: #BA7831;
+
+}
+#gallery{
+    position: relative;
+    top: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 200%;
+    color: white;
+    background-color: #BA7831;
+}
+button{
+    
+    border-radius: 10%;
+    border-style:dotted;
+    padding: 10px;
+    background-color: #BA7831;
+
+}
+#corbata img{
+    margin-bottom: 0;
+}
+#corbata{
+    position: relative;
+    left: 140px;
+}
+#brazo-izq{
+ position: relative;
+ right: 350px;
+ top: 300px;
+}
+#brazo-der{
+    position: relative;
+    left: 120px;
+    top: 300px;
+}
+#pierna-izq{
+    position: relative;
+    top: 215px;
+    right: 50px;
+}
+#pierna-der{
+    position: relative;
+    top: 200px;
+    left: 50px;
+}

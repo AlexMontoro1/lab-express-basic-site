@@ -13,12 +13,25 @@ app.get("/home", (req, res) => {
 
 })
 
-app.get("/home/:link", (req, res) => {
+app.get("/about", (req, res) => {
 
-    if (req.params.link === __dirname + "/views/about.html") {
+    
         res.sendFile(__dirname + "/views/about.html")
-    }
+    
 })
+app.get("/works", (req, res) => {
+
+    
+    res.sendFile(__dirname + "/views/works.html")
+
+})
+app.get("/photoGallery", (req, res) => {
+
+    
+    res.sendFile(__dirname + "/views/photoGallery.html")
+
+})
+
 
 
 
